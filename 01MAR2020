@@ -1,0 +1,5 @@
+### Node
+Node caches modules when `require` into another module.
+`require.cache` [require.cache](https://nodejs.org/api/modules.html#modules_require_cache)
+- Modules are cached in this object when they are required. 
+- console.log(require.cache) // will print all the cached modules with filename as key and module object as value
